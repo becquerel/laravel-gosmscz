@@ -1,0 +1,21 @@
+{
+    "name": "becquerel/laravel-gosmscz",
+    "description": "GoSMS.cz integration for Laravel Framework",
+    "type": "library",
+    "authors": [
+        {
+            "name": "David Cap",
+            "email": "david.cap@bocians.net"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoSms\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
